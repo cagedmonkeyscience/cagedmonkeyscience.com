@@ -1,8 +1,7 @@
 +++
-Title = "This is the title"
+Title = "Test 1"
 Description = ""
 Tags = ["Development", "golang"]
 Categories = ["Development", "GoLang"]
-menu = "main"
 +++
-This is normal B
+Test article 1

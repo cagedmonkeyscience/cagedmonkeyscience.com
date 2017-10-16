@@ -1,15 +1,6 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      {{ if isset .Site.Params "gravatarhash" }}
-        <center>
-          <img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200"
-               alt="gravatar" title="{{ .Site.Author.name }}" style="-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;">
-        </center>
-      {{ end }}
-      <h1>{{ .Site.Author.name }}</h1>
-      {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
-    </div>
+    
     <div class="sidebar-about">
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
       <p class="lead">
@@ -22,14 +13,10 @@
       {{ range .Site.Menus.main -}}
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{- end }}
+      <li><a href="/posts">Posts</a></li>
     </ul>
 
-    <ul class="sidebar-nav">
-            {{ range $section, $pages := .Site.Sections }}
-              <li><a href="/{{ $section }}">{{ title $section }} {{ $pages }}</a></li>
-            {{ end }}
-    </ul>
-
+    
     <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
   </div>
 </div>

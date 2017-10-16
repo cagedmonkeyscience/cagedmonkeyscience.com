@@ -13,6 +13,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "Marius Potgieter"
 [params]
     description = "Going deep and learning some Deep Learning"
-    themeColor = "theme-base-0d"
+    themeColor = "theme-base-0b"
     gravatarHash = "ba052fde0349728a8a2d2442dd1f3966"
     tagline = "Deep"

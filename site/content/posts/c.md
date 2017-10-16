@@ -1,19 +1,12 @@
 +++
-title = "This is title for C"
+title = "Test 2"
 Description = ""
 Tags = ["Development", "golang"]
 Categories = ["Development", "GoLang"]
 date = 2017-10-15T20:15:51+02:00
 +++
 
-CCCC
-CCCC
-CCCC
-CCCC
-CCCC
-CCCC
-CCCC
-
+Test article 2
 
 {{< highlight go  >}}
 import "fmt"
