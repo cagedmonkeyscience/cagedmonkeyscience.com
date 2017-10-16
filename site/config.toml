@@ -1,0 +1,18 @@
+theme = "hyde"
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Caged Monkey Science"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[author]
+    name = "Marius Potgieter"
+[params]
+    description = "Going deep and learning some Deep Learning"
+    themeColor = "theme-base-0d"
+    gravatarHash = "ba052fde0349728a8a2d2442dd1f3966"
+    tagline = "Deep"
